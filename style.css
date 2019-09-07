@@ -418,13 +418,22 @@ h6 {
       padding-left: 20px;
 }
 
+.info a {
+      color: #fff;
+}
+
+.info a:hover {
+      color: #fff;
+}
+
+
 #fb::before {
       display: inline-block;
       content: '';
       border-radius: 100%;
       height: 4px;
       width: 4px;
-      margin-right: 6px;
+      margin-right: 6px;      
       background: #3b5998;
 }
 
@@ -472,6 +481,7 @@ h6 {
 #media ul li {
       display: inline-block;
 }
+
 
 @media(max-width: 768px) {
       .collab, #personal, #media, #address {
